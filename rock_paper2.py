@@ -19,6 +19,8 @@ while True :
         break
     else:
         player = input('Player, Please enter your choice:\n')
+        if player == 'quit' or player == 'q':
+            break
         computer = random.randint(0, 2)
         if player:
                 if player == 'rock':
