@@ -6,7 +6,7 @@ print(emojize(':newspaper:'))
 print(emojize(':scissors:'))
 player_wins = 0
 computer_wins = 0
-rounds = 0
+rounds = 1
 while rounds <= 3:
     player = input('Player, Please enter your choice:\n')
     computer = random.randint(0, 2)
