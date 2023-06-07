@@ -1,11 +1,12 @@
 import random
 from emoji import emojize
-print(emojize(':gem_stone:'))
-print(emojize(':newspaper:'))
-print(emojize(':scissors:'))
 player_wins = 0
 computer_wins = 0
 while True :
+    print(f'player: {player_wins}, computer: {computer_wins}')
+    print(emojize(':gem_stone:'))
+    print(emojize(':newspaper:'))
+    print(emojize(':scissors:'))
     if player_wins == 2:
         print(
             f'Player {player_wins}, computer {computer_wins}. Player wins the game!' +
