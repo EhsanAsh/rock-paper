@@ -1,3 +1,4 @@
+# already has done some work/ the next step is to add for loop to make it run 3 times.
 import random
 from emoji import emojize
 print(emojize(':gem_stone:'))
